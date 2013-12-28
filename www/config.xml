@@ -12,12 +12,12 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
 	<preference name="phonegap-version" value="3.0.0" />
-	<gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
-	<!--<gap:plugin name="NetworkStatus" value="org.apache.cordova.core.NetworkManager" />
+	<!--<gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
+	<gap:plugin name="NetworkStatus" value="org.apache.cordova.core.NetworkManager" />
 	<gap:plugin name="Battery" value="org.apache.cordova.core.BatteryListener" />
-	<gap:plugin name="Geolocation" value="org.apache.cordova.core.GeoBroker" />
+	<gap:plugin name="Geolocation" value="org.apache.cordova.core.GeoBroker" />-->
 	<gap:plugin name="Camera" value="org.apache.cordova.core.CameraLauncher" />
-	<gap:plugin name="File" value="org.apache.cordova.core.FileUtils" />
+	<!--<gap:plugin name="File" value="org.apache.cordova.core.FileUtils" />
 	<gap:plugin name="FileTransfer" value="org.apache.cordova.core.FileTransfer" />
 	<gap:plugin name="Notification" value="org.apache.cordova.core.Notification" />
 	<gap:plugin name="Vibration" value="org.apache.cordova.core.Vibration" />
