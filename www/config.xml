@@ -11,8 +11,10 @@
     <access origin="*" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
-	<preference name="phonegap-version" value="3.1.0" />
-	<gap:plugin name="Accelerometer" value="org.apache.cordova.Accelerometer" />
+	<preference name="phonegap-version" value="3.0.0" />
+	<gap:plugin name="org.apache.cordova.core.camera" />
+	<gap:plugin name="org.apache.cordova.core.geolocation" />
+	<gap:plugin name="org.apache.cordova.core.dialogs" />
 
 	<!--<gap:plugin name="org.apache.cordova.core.CameraLauncher" />
 	<!--<gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
