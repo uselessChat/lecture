@@ -21,7 +21,10 @@ var geolocationOptions = {
 
 function getGeolocation(){
 	var p = newGeolocationPosition();
-	if(checkConnection()){
+	if(navigator.geolocation){
+		alert('Geo OK');
+	}
+	/*if(checkConnection()){
 		navigator.geolocation.getCurrentPosition(
 			function geolocationSuccess(position){
 				p.latitude	= position.coords.latitude;
@@ -40,7 +43,7 @@ function getGeolocation(){
 			},geolocationOptions);
 	}else{
 		//alerta de no conexion
-	}
+	}*/
 	//return p;
 }
 //var Connection = navigator.connection;
