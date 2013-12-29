@@ -55,6 +55,9 @@ states[Connection.CELL]     = 'Cell generic connection';
 states[Connection.NONE]     = 'No network connection';*/
 
 function checkConnection(){
+	if(navigator.connection){
+		alert('Camera OK');
+	}
 	// Check the connection from the navigator
 	//
 	/*if(navigator.connection && navigator.connection.type){
