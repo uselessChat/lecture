@@ -15,7 +15,13 @@
 	<gap:plugin name="org.apache.cordova.core.camera" />
 	<gap:plugin name="org.apache.cordova.core.geolocation" />
 	<gap:plugin name="org.apache.cordova.core.dialogs" />
-
+	<gap:plugin name="org.apache.cordova.battery-status"/>
+	<gap:plugin name="org.apache.cordova.device"/>
+	<gap:plugin name="org.apache.cordova.file"/>
+	<gap:plugin name="org.apache.cordova.file-transfer"/>
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="org.apache.cordova.vibration" />
 
 	<!--<gap:plugin name="org.apache.cordova.core.CameraLauncher" />
 	<!--<gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
